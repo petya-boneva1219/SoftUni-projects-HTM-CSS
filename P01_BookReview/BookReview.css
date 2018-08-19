@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+
+body{
+   width: 100%;
+   margin: 0 auto;
+ padding: 0;
+   background: linear-gradient(to bottom, #567788 0%,#121f25 100%) no-repeat;
+   font-family: 'Open Sans', sans-serif;
+   color: rgb(51, 51, 51);
+  
+}
+nav{
+   background-color: rgb(239, 244, 247);
+   width: 90%;
+   text-align: right;
+   margin: 20px auto;
+   height: 59px;
+   position: relative;
+   margin-bottom: 67px;
+}
+nav li{
+   display: inline-block;  
+   padding-top: 20px;
+}
+
+nav li a{
+   padding: 10px;
+    text-decoration: none;
+    color: grey;
+    font-size: 18px;
+}
+nav li a:hover{
+   cursor: pointer;
+border-bottom :2px solid #70e9ff;
+color: #333;
+
+}
+.logo{
+   height: 90px;
+   width: 90px;
+   background-color: #ea3d51;
+   position: relative;
+    left: 525px;
+    top: -53px;
+    z-index: -1;
+}
+.logo h1.br{
+   text-align: center;
+   text-transform: uppercase;
+   font-size: 43px;
+   top: 64px;
+   color: darkgrey;
+   position: relative;
+    margin: 0;
+    font-weight: bold;
+}
+main{
+   margin-top: 30px;
+   width: 80%;
+   margin: 0 auto;
+   background-color: rgb(203, 208, 217);
+}
+main h1{
+    position: relative;
+    color: rgb(109, 255, 184);
+    margin: 0;
+    text-align: center;
+    font-size: 58px;
+    text-transform: uppercase;
+    left: 40px;
+    top: 15px;
+}
+main h3{
+    text-transform: uppercase;
+    font-size: 33px;
+    margin: 0;
+    text-align: center;
+    position: relative;
+    bottom: 71px;
+}
+.girl{
+    background: linear-gradient(to bottom, #eb3c53 0%, #e6135c 100%) no-repeat center center;
+    text-align: center;
+    width: 35%;
+    padding: 23px;
+    position: relative;
+    margin: 30px auto;
+    z-index: 1;
+}
+.girl img{
+    border-radius: 50%;
+    width: 25%;
+}
+body > main > section.girl > p:nth-child(3)::before{
+    content: '"';
+    color: #af213d;
+   font-size: 30px;
+   font-weight: 800;
+}
+body > main > section.girl > p:nth-child(3)::after{
+    content: '"';
+    color: #af213d;
+   font-size: 30px;
+   font-weight: 800;
+}
+.girl button{
+    color: rgb(51, 51, 51);
+    border: 3px solid rgb(109, 255, 184);
+    text-transform: uppercase;
+    padding: 10px;
+    background: transparent;
+    font-weight: 600;
+}
+.girl button:hover{
+    background-color: rgb(109, 255, 184);
+}
+.underGirl{
+    position: relative;
+    padding-top: 100px;
+    margin: 0 auto;
+    background-color: white;
+    width: 90%;
+    bottom: 101px;
+}
+.underGirl h2{
+    font-size: 33px;
+    color: rgb(109, 255, 184);
+padding-left: 28px;
+}
+.underGirl p{
+    width: 70%;
+padding-left: 28px;
+}
+.underGirl button{
+    cursor: pointer;
+    text-transform: uppercase;
+    border: 3px solid rgb(101, 129, 141);
+    background: transparent;
+    padding: 10px;
+margin:30px;
+
+}
+.underGirl button:hover{
+    background-color: rgb(101, 129, 141);
+    color:rgb(109, 255, 184)
+}

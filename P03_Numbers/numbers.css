@@ -1,0 +1,57 @@
+body{
+   font-family: Arial, Helvetica, sans-serif;
+   
+}
+header{
+   background-color: rgb(221, 221, 221);
+   border-radius: 16px;
+}
+h1{
+   font-size: 18px;
+   color: rgb(148, 112, 220);
+   text-align: center;
+   padding: 21px;
+   text-transform: capitalize;
+}
+button{
+   font-size: 14px;
+   background-color: rgb(221, 221, 221);
+   width: 90%;
+    text-transform: capitalize;
+    padding: 7px;
+    outline: none;
+    border-radius: 8px;
+    border: none;
+margin-bottom:20px;
+}
+button:hover{
+   background-color: white;
+   cursor: pointer;
+}
+main, header{
+   width: 800px;
+   margin: 0 auto;
+}
+main article{
+   width: 24%;
+   display: inline-block;
+   background-color: rgb(238, 238, 238);
+   text-align: center;
+   border-radius: 8px;
+}
+main article div{
+   background-color: rgb(148, 112, 220);
+   margin-top: 9px;
+   border-radius: 55%;
+   padding: 61px;
+   display: inline-block;
+   font-size: 29px;
+   padding-left: 76px;
+   padding-right: 76px;
+   color: white;
+}
+main article div:hover{
+   background-color: white;
+   color:rgb(148, 112, 220);
+   cursor: pointer;
+}
