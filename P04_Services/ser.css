@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:800');
+body{
+   background-color: rgb(240, 240, 232);
+   font-family: 'Open Sans', Helvetica,serif;
+   color: rgb(121, 128, 131);
+}
+header{
+   text-align: center;
+}
+h1{
+   font-size: 56px;
+   color: rgb(0, 146, 136);
+}
+main{
+   text-align: center;
+  
+}
+article{
+   width: 220px;
+
+   display: inline-block;
+   margin: 12px;
+   border-left: 7px solid rgb(240, 240, 232);
+}
+article i{
+   color: rgb(0, 146, 136);
+   font-size: 48px;
+}
+article:hover{
+   background-color: white;
+   border-left: 7px solid rgb(0, 146, 136);
+   cursor: pointer;
+}
