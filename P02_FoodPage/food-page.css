@@ -1,0 +1,54 @@
+body{
+   
+   padding: 0;
+   width: 90%;
+   margin: 0 auto;
+}
+header{
+   background: url(images/header.jpg) no-repeat center;
+   height: 100px;
+   background-size: cover;
+}
+header h1{
+   color:white;
+   text-align: center;
+   padding-top: 21px;
+}
+main div.content{
+   float: left;
+   width: 60%;
+}
+article img{
+   width: 100%
+
+}
+article p{
+   width: 100%;
+}
+aside{
+   width: 34%;
+   float: right;
+   
+}
+aside::before{
+   clear: left;
+}
+aside img{
+   width: 100%;
+}
+
+button{
+   border-radius: 27px;
+    border-style: none;
+    background: none;
+    padding: 12px;
+    border: 2px solid rgb(246, 169, 169);
+color:rgb(246, 169, 169);
+
+}
+button:hover{
+  background-color:  rgb(236, 83, 83);
+  cursor: pointer;
+  color: white;
+}
+
