@@ -1,0 +1,99 @@
+
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+body{
+font-family: 'lato', sans-serif;
+width: 100%;
+margin: 0 auto;
+}
+header{
+   background-color: rgb(36, 67, 124);
+}
+ul.nav-primary{
+   float: right;
+   margin-bottom: 0;
+}
+ul.nav-primary li{
+   display: inline-block;
+   list-style: none;
+  
+   padding: 10px;
+}
+ul.nav-primary li a{
+   color: white;
+   text-decoration: none;
+   font-size: 18px;
+   text-transform: capitalize;
+}
+ul.nav-primary li:last-child>a{
+   background-color: rgb(61, 193, 239);
+   border-radius: 11px;
+padding: 10px;
+}
+h1{
+   padding-top: 52px;
+   font-weight: 300;
+    text-align: center;
+    text-transform: capitalize;
+    letter-spacing: 3px;
+    font-size: 37px;
+    color: white;
+}
+h2.header-subtitle{
+   color:rgb(91, 143, 170);
+   text-align: center;
+   text-transform: capitalize;
+   font-weight: 300;
+   letter-spacing: 2px;
+}
+div#button-container{
+   text-align: center;
+   margin-top: 40px;
+   
+}
+div#button-container a{
+   text-align: center;
+   background-color: rgb(61, 193, 239);
+   border-radius: 11px;
+padding: 10px;
+color: white;
+text-transform: capitalize;
+}
+div#button-container a:hover{
+	cursor:pointer;
+}
+ul.header-services{
+  margin: 0 auto;
+   width: 80%;
+   margin-top:70px; 
+}
+ul.header-services li{
+   list-style: none;
+   width: 30%;
+   display: inline-block;
+  padding: 16px;
+}
+li.service:hover{
+   background-color: rgb(61, 193, 239);
+   cursor: pointer;
+}
+ul.header-services article{
+   padding: 32px;
+text-align: center;
+color: white;
+}
+ul.header-services article p{
+  text-align: left;
+padding-top: 16px;
+}
+h2.service-title{
+   font-weight: 500;
+   letter-spacing: 1px;
+   text-align: left;
+}
+p.service-intro a{
+   margin-top: 20px;
+   float: left;
+   color: white;
+   text-decoration: none;
+}

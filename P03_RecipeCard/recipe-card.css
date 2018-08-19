@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+
+body{
+   width: 100%;
+   margin: 0 auto;
+   background-color: rgb(51, 51, 51);
+   font-family: 'Lato', serif;
+   font-size: 16px;
+   color:rgb(255, 255, 255);
+
+}
+main{
+   width: 80%;
+   margin: auto;
+   margin-top: 6%;
+   background-size: inherit;
+   background: url(images/food-image-bg.png) no-repeat center;
+   border-radius: 22px;
+   height: 671px;
+}
+h1{
+   font-size: 3em;
+   color: white;
+   float: right;
+   text-transform: uppercase;
+   font-family: Lato;
+   padding-right: 12%;
+}
+div.recipies-info p{
+   color: white;
+    font-size: 20px;
+   
+    padding: 9px;
+   display: inline-block;
+   padding-top: 18px;
+   padding-bottom: 2px;
+}
+div.recipies-info p span{
+   color:rgb(181, 198, 64);
+}
+div.recipies-info{
+   padding-left: 8%;
+   padding-top: 0%;
+}
+button{
+   color: white;
+   padding: 10px;
+   background: transparent;
+   margin-left: 22.6em;
+   outline: none;
+   border: 2px solid white;
+   border-radius: 19px;
+   font-weight: bold;
+}
+button:hover{
+   background-color: rgb(181, 198, 64);
+   cursor: pointer;
+}
+ul.prep-steps{
+   margin-top: 4em;
+
+width: 60%;
+float: right;
+}
+ul li{
+   padding-bottom: 1.8em;
+    list-style: none;
+    color: white;
+}
