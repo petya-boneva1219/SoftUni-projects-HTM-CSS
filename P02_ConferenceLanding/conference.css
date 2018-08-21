@@ -1,0 +1,272 @@
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+body {
+   font-family: 'Roboto', sans-serif;
+   font-size: 14px;
+   margin: 0 auto;
+}
+header {
+   background: linear-gradient(rgba(60, 63, 73, 0.9),rgba(60, 63, 73, 0.9)), url(img/header-bg.png);
+   background-size: cover;
+   color: white;
+}
+header h4 {
+   text-transform: uppercase;
+   margin: 0;
+   padding: 1.5rem;
+   color: white;
+   letter-spacing: 2px;
+   display: inline-block;
+   width: 7rem;
+}
+nav  {
+   float: right;
+}
+nav ul {
+   margin: 0;
+   list-style: none;
+}
+nav ul li {
+   display: inline-block;
+   padding: 1.5rem 1.5rem 0 0;
+}
+nav ul li a {
+   color: white;
+   letter-spacing: 2px;
+   text-transform: uppercase;
+   text-decoration: none;
+   font-weight: bold;
+}
+nav li:hover a{
+   color: #FD681E;
+   cursor: pointer;
+}
+header h1 {
+   display: inline-block;
+   width: 43%;
+   clear: both;
+   margin: 14rem 0 1rem 20rem;
+   font-weight: normal;
+}
+header > p {
+   display: inline-block;
+    width: 30px;
+}
+header > p i:hover {
+   color: #FD681E;
+   cursor: pointer;
+}
+section#header {
+   display: flex;
+   margin-top: 6rem;
+   flex-wrap: wrap;
+}
+section#header article {
+   width: 22%;
+   margin-left: 2rem;
+   height: 18rem;
+   box-sizing: border-box;
+}
+section#header article span i {
+   margin-bottom: 3rem;
+}
+section#header article:hover {
+   border-bottom: 10px solid #FD681E;
+   cursor: pointer;
+}
+section#first {
+   border: 1px solid lightgray;
+   margin-bottom: 3px;
+}
+section#content {
+   
+   width: 90%;
+   margin: 0 auto;
+   vertical-align: top;
+   padding-top: 5rem;
+   padding-bottom: 3rem; 
+}
+section#content article {
+   width: 30%;
+   display: inline-block;
+   padding-left: 1rem;
+   vertical-align: top;
+}
+section#content article:nth-child(1) {
+   width: 17%;
+   text-align: right;
+   margin-left: 5rem;
+   padding-top: 3rem;
+}
+section#content h3 {
+   font-size: 1.3rem;
+}
+section#content article:nth-child(1) p {
+   padding-top: 2rem;
+   text-transform: uppercase;
+}
+section#content article:nth-child(2) {
+   width: 26%;
+    margin-left: 3rem;
+    font-size: 1rem;
+}
+section#content article:nth-child(2) p:nth-child(3) {
+   font-weight: bold;
+}
+section#content article:nth-child(3) {
+   margin-left: 3rem;
+}
+section#first div {
+   background-color: rgba(253, 104, 30, 0.7);
+   width: 26%;
+   height: 526px;
+   position: absolute;
+   display: inline-block;
+   z-index: 3;
+   top: 48rem;
+   left: 58.4rem;
+}
+section#second {
+   background-color: #3C3F49;
+   color: white;
+   padding-top: 2rem;
+}
+section#second h3 {
+   font-size: 1.3rem;
+   width: 34%;
+   margin: 1rem 6rem 6rem;
+}
+section#schedule {
+   width: 80%;
+   display: flex;
+   justify-content: center;
+   margin: 0 auto;
+   padding-bottom: 3rem;
+}
+section#schedule article {
+   margin: 3rem;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   height: 270px;
+}
+section#schedule p {
+   color: rgb(203, 204, 206);
+   text-transform: capitalize;
+}
+section#schedule i {
+   padding: 1rem;
+   background-color: #FD681E;
+   border-radius: 50%;
+   color: white;
+   font-size: 1rem;
+}
+section#schedule span {
+   color: white;
+   font-weight: bold;
+   padding: 0 1rem;
+}
+section#third {
+   margin: 3rem 0;
+}
+section#third h3 {
+   width: 21%;
+    font-size: 1.3rem;
+    margin-left: 13rem;
+    display: inline-block;
+}
+section#third > p {
+   display: inline-block;
+    font-weight: bold;
+    width: 31rem;
+    padding-left: 7rem;
+    vertical-align: text-bottom;
+}
+section#team {
+   display: flex;
+   width: 80%;
+   margin: 0 auto;
+   flex-wrap: wrap;
+   justify-content: center;
+}
+section#team article { 
+   width: 26%;
+   margin: 1rem;
+   box-shadow: 10px 11px 27px -9px rgba(0,0,0,0.75);
+   background-color: #F9F9F9;
+}
+section#team img {
+   width: 100%;
+}
+section#team h4 {
+   text-transform: capitalize;
+   padding-left: 2rem;
+}
+section#team p {
+   text-transform: uppercase;
+   padding-left: 2rem;
+}
+section#team i:hover {
+   color: #FD681E;
+   cursor: pointer;
+}
+section#fourth {
+    background-color: #3C3F49;
+    color: white;
+    padding: 1rem 0; 
+}
+section#events {
+    width: 70%;
+    margin: 3rem auto;
+    border: 1px solid #D6D6DE;
+    box-sizing: border-box;
+    padding: 3rem 11rem 5rem;
+    text-align: center;
+}
+section#events h2 {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 1.9rem;
+    padding-bottom: 1rem;
+}
+section#events p {
+    color: #D6D6DE;
+    padding-bottom: 3rem;
+}
+section#events input {
+    background-color: transparent;
+    border: none;
+    border-bottom: 3px solid #FD681E;
+    outline: none;
+    color: white;
+}
+section#events ::placeholder {
+    color: white;
+}
+button {
+    background-color: #FD681E;
+    border: none;
+    color: white;
+    border-radius: 14px;
+    padding: 0.5rem 1.1rem;
+    text-transform: uppercase;
+    margin-left: 3rem;
+}
+button:hover {
+    background-color: #333333;
+    cursor: pointer;
+}
+footer {
+    background-color: #292A2F;
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    text-transform: uppercase;
+    padding: 0.6rem;
+    align-items: center;
+}
+footer div:nth-child(2) {
+    width: 17%;
+    color: #88898D;
+}
+

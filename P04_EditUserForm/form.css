@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700,900');
+body {
+   margin: 0 auto;
+   font-family: 'Roboto', sans-serif;
+   background-color: #EEEEEE;
+}
+section {
+   width: 70%;
+   margin: 0 auto;
+}
+h1 {
+   text-transform: uppercase;
+   margin: 2rem;
+   background: white;
+   padding: 2rem;
+   color: #324E5B;
+   font-size: 2rem;
+   border-top: 8px solid #324E5B;
+   border-right: 8px solid #324E5B;
+}
+form {
+   margin: 2rem 6rem;
+}
+span {
+   display: block;
+   padding: 0.5rem 0;
+}
+input[type="text"], input[type="password"], input[type="email"] {
+   width: 38rem;
+   height: 30px;
+   border: none;
+   border-top: 4px solid #324E5B;
+   border-left: 4px solid #324E5B;
+   outline: none;
+}
+p {
+   display: inline-block;
+}
+input[type="radio"]:nth-child(4) {
+   margin-left: 10rem;
+}
+div {
+   width: 37rem;
+   background: white;
+   padding: 0.5rem;
+   border-top: 4px solid #324E5B;
+   border-left: 4px solid #324E5B;
+}
+
+div p {
+   margin: 0.3rem;
+}
+form > p {
+   display: block;
+    margin-top: 2rem;
+    margin-bottom: 0.5rem;
+}
+form > a {
+display: block;
+color: #006153;
+margin-bottom: 0.5rem;
+}
+button:first-of-type {
+   margin: 1rem 4rem 0 6rem;
+    padding: 0.5rem 4rem;
+    border: none;
+    border-bottom: 3px solid #FF4210;
+    border-right: 3px solid #FF4210;
+    background: #EEEEEE;
+    color: #FF4210;
+    font-weight: bold;
+    outline: none;
+}
+button:last-of-type {
+   padding: 0.5rem 4.5rem;
+    border: none;
+    border-bottom: 3px solid #006153;
+    border-right: 3px solid #006153;
+    background: #EEEEEE;
+    color: #006153;
+    font-weight: bold;
+    outline: none;
+}

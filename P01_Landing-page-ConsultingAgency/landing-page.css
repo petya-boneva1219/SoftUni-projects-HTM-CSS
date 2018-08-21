@@ -1,0 +1,283 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+body {
+  margin: 0 auto;
+  font-family: 'Open Sans', 'sans-serif';
+  font-size: 14px;
+}
+
+header {
+  background-image: url(images/Layer-759_02.jpg);
+  background-size: cover;
+  text-align: center;
+  background-repeat: no-repeat;
+  padding-top: 0.1rem;
+}
+
+nav {
+  width: 70%;
+  margin: 0 auto;
+}
+
+nav ul {
+  list-style: none;
+  background-color: rgba(186, 146, 94, 0.9);
+  padding: 0
+}
+
+nav ul li {
+  display: inline-block;
+  padding: 1rem 2.2rem;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+header h1 {
+  color: white;
+  text-transform: uppercase;
+  font-size: 3.6rem;
+  margin-top: 3rem;
+  text-shadow: -1px 0px 10px #000000;
+}
+
+header h3 {
+  width: 30%;
+  margin: 0 auto;
+  color: white;
+  font-size: 1.4rem;
+  text-shadow: -1px 0px 10px #000000;
+}
+
+header button {
+  background: #080820;
+  border: none;
+  color: white;
+  padding: 1.3rem 1.6rem;
+  text-transform: uppercase;
+  border-radius: 7px;
+  outline: none;
+  margin: 2rem 1rem 16rem;
+}
+
+header i {
+  color: rgba(186, 146, 94, 0.9);
+}
+
+header button:hover, header button:hover i {
+  background: #C79D63;
+  color: black;
+  cursor: pointer;
+}
+
+section#industries {
+  margin: 0 auto;
+  padding-bottom: 3rem;
+}
+
+section#industries h2 {
+  text-align: center;
+  font-size: 3rem;
+}
+
+section#ind-first, section#ind-second {
+  display: flex;
+  width: 90%;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+section#ind-first i, section#ind-second i {
+  color: white;
+  background: black;
+  padding: 0.5rem;
+  border-radius: 50%;
+  font-size: 1.3rem;
+  margin: 0 1rem 0 -58px;
+  width: 1.6rem;
+}
+
+section#industries article {
+  padding-left: 3rem;
+}
+
+section#investors {
+  background-image: linear-gradient(to bottom, rgba(249, 252, 247, 0.5) 0%, rgba(245, 249, 240, 0.5) 100%), url(images/steel-bg.jpg);
+  margin: 0 auto;
+}
+
+section#investors h3 {
+  width: 35%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 2rem;
+  font-size: 1.3rem;
+}
+section#investors h3::first-line {
+  color: #C79D63;
+}
+
+section#choose-us {
+  background: linear-gradient(to bottom, rgba(69, 72, 77, 0.7) 0%, rgba(0, 0, 0, 0.7) 1%), url(images/background-choose-us.jpg);
+  background-size: cover;
+  text-align: center;
+  color: white;
+  padding-top: 3rem;
+}
+
+section#choose-us h2 {
+  font-size: 2rem;
+}
+
+section#in-choose {
+  display: flex;
+  width: 80%;
+  margin: 1rem auto 0;
+  justify-content: center;
+}
+
+section#in-choose article {
+  border: 2px solid #C79D63;
+  margin: 0 1rem 3rem;
+  padding: 1.3rem;
+}
+
+section#in-choose article:hover {
+  background: white;
+  color: black;
+  cursor: pointer;
+}
+
+section#in-choose article h4 {
+  font-size: 1.2rem;
+}
+
+section#in-choose article p {
+  text-align: left;
+}
+
+section#woman {
+  background-image: url(images/consulting-woman.jpg);
+  background-size: cover;
+  padding-top: 3rem;
+  background-position: center;
+}
+
+article#in-woman {
+  width: 30%;
+  background-color: rgba(255, 255, 255, 0.7);
+  margin-left: 47rem;
+  padding: 3rem;
+  text-align: justify;
+}
+
+article#in-woman>article {
+  background-color: #080820;
+  color: white;
+}
+
+article#in-woman>article p:nth-child(1) {
+  text-align: right;
+  font-size: 0.7rem;
+  color: rgb(180, 180, 180);
+}
+
+article#in-woman>article p:nth-child(2) {
+  font-size: 1.1rem;
+  padding: 0 0 10.3rem 1.3rem;
+  margin: 0;
+}
+
+article#in-woman>p::before, article#in-woman>p::after {
+  content: '"';
+  font-size: 1.6rem;
+  color: #BA925E;
+}
+
+section#logo {
+  display: flex;
+  width: 65%;
+  margin: 3rem auto;
+}
+
+section#logo img {
+  width: 16%;
+  height: 64px;
+}
+
+footer {
+  background-color: #080820;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  font-size: 0.7rem;
+}
+
+footer article {
+  width: 23%;
+}
+
+footer h4 {
+  font-size: 1rem;
+}
+
+footer article:nth-child(1) p, address {
+  padding-left: 2rem;
+}
+
+footer article:nth-child(1) i {
+  padding-left: 0.3rem;
+}
+
+footer article:nth-child(1) {
+  width: 20%;
+}
+
+footer article:nth-child(1) span {
+  position: relative;
+  left: 5rem;
+  top: 2rem;
+}
+
+footer article:nth-child(1) span i {
+  background-color: #818390;
+  border-radius: 50%;
+  color: #080820;
+  font-size: 1.5rem;
+  padding: 0.6rem;
+  margin: 0.3rem;
+}
+
+footer article:nth-child(2) div {
+  display: inline-block;
+  width: 30%;
+  vertical-align: top;
+}
+
+footer article:nth-child(2) div:first-of-type {
+  padding-left: 2rem;
+}
+
+footer li {
+  list-style: none;
+  color: #C79D63;
+  padding: 0.3rem 0;
+}
+
+footer article:nth-child(3) {
+  display: flex;
+  flex-wrap: wrap;
+  width: 28%;
+}
+
+footer figure {
+  padding-left: 2rem;
+  margin: 0;
+}
+
+footer img {
+  width: 95px;
+  height: 95px;
+  ;
+}
