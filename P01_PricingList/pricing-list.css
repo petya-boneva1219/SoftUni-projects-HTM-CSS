@@ -1,0 +1,85 @@
+@font-face {
+   font-family: 'Vollkorn-Regular';
+   src: url(fonts/Vollkorn-Regular.ttf)
+}
+
+body {
+   font-family: 'Vollkorn-Regular', 'sans-serif';
+   margin: 0 auto;
+}
+
+h1 {
+   text-align: center;
+   color: #778494;
+   margin-top: 2rem;
+}
+
+section {
+   display: flex;
+   margin: 0 auto;
+   width: 67%;
+}
+
+article {
+   display: flex;
+   flex-direction: column;
+   margin: 1rem;
+   width: 31%;
+   border: 1px solid #DDDDDD;
+   color: #808E98;
+   font-weight: 200;
+}
+
+h2 {
+   background-color: #EBEFF2;
+   width: 100%;
+   margin-top: 0;
+   padding: 1rem 0;
+   text-align: center;
+   text-transform: capitalize;
+   font-weight: lighter;
+}
+
+h3 {
+   text-align: center;
+   font-size: 3rem;
+   margin: 0;
+}
+
+p {
+   margin: 1rem;
+   border-bottom: 1px solid #DDDDDD;
+}
+
+button {
+   margin: 1rem auto;
+   width: 80%;
+   text-align: center;
+   text-transform: capitalize;
+   padding: 1rem;
+   color: white;
+   background-color: #DDDDDD;
+   border: none;
+   border-radius: 10px;
+   cursor: pointer;
+   outline: none;
+}
+
+article:nth-child(1)>button {
+   margin-top: 11.2rem;
+}
+
+article:nth-child(2)>button {
+   margin-top: 7.9rem;
+}
+h2:hover {
+   background-color: #65D3E2;
+   cursor: pointer;
+}
+h3:hover {
+   color: #65D3E2;
+   cursor: pointer;
+}
+button:hover {
+   background-color: #65D3E2;
+}

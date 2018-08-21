@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+body {
+   margin: 0 auto;
+   font-family: 'Open sans', 'sans-serif';
+   font-size: 14px;
+}
+aside {
+   width: 20%;
+   display: inline-block;
+   text-align: center;
+   vertical-align: top;
+   color: #B1C0C7;
+}
+aside h2 {
+   font-size: 3rem;
+   color: black;
+   margin-bottom: 4rem;
+}
+aside img {
+   width: 65%;
+   border-radius: 50%;
+}
+aside p {
+   text-transform: uppercase;
+   font-size: 1.5rem;
+}
+nav ul {
+   padding-left: 1rem;
+}
+nav ul li {
+   list-style: none;
+   text-align: left;
+   padding: 1rem 0;
+}
+
+nav ul li a, ul li i {
+   text-decoration: none;
+   text-transform: uppercase;
+   color: #B1C0C7;
+   letter-spacing: 0.2rem;
+   font-size: 1.1rem;
+
+}
+nav ul li:hover a, ul li:hover i {
+   color: black;
+   cursor: pointer;
+}
+ul li i {
+   padding: 0 0.3rem;
+}
+main {
+   background-color: #F4F5F7;
+   padding-left: 3.5rem;
+   display: inline-block;
+   width: 75%;
+}
+h1 {
+   font-size: 2.2rem;
+   padding-top: 2.2rem;
+   display: inline-block;
+   width: 80%;
+}
+h1 span {
+   color: #B1C0C7;
+}
+main button {
+   text-transform: uppercase;
+   background-color: #FF7739;
+   padding: 0.7rem 1.5rem;
+   color: white;
+   border: none;
+   border-radius: 31px;
+}
+button i {
+   padding-left: 0.4rem;
+}
+button:hover {
+   background: transparent;
+   color:#FF7739;
+   border:2px solid #FF7739;
+   cursor: pointer;
+}
+button:hover i {
+   background: transparent;
+   color:#FF7739;
+}
+main  p.first {
+   font-weight: bold;
+   text-transform: capitalize;
+}
+main  p.second {
+   text-transform: uppercase;
+}
+section {
+   display: flex;
+   width: 90%;    
+   margin-bottom: 2rem;
+}
+article {
+   width: 30%;
+   background-color: white;
+   margin: 1rem 2.4rem 1rem 0;
+   box-shadow: 10px 10px 21px -4px rgba(0,0,0,0.32);
+   padding-top: 2rem;
+
+}
+article#rented {
+   opacity: 0.7;
+}
+article img {
+   width: 100%;
+}
+article span {
+   top: 40px;
+    text-transform: uppercase;
+    background-color: #68BB69;
+    padding: 0.4rem 1rem;
+    position: relative;
+    border-radius: 30px;
+    color: white;
+    right: 22px;
+
+}
+article span.draft {
+   background-color: #B8C5CD;
+}
+article p {
+   padding-left: 1rem; 
+   text-transform: capitalize;
+}
