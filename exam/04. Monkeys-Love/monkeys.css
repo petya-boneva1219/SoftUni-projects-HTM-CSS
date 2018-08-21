@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700,800');
+body {
+   margin: 0 auto;
+   font-family: 'Open Sans', sans-serif;
+}
+nav {
+   display: flex;
+   justify-content: center;
+}
+ul li {
+   display: inline-block;
+   padding: 0 2rem;
+}
+nav ul {
+   padding: 0;
+   margin: 1.5rem 0;
+}
+nav li a {
+   text-decoration: none;
+   color: #F05F40;
+   font-weight: bold;
+}
+header {
+   background-image: url(img/header.png);
+   background-size: cover;
+   background-position: center;
+   padding: 5px 0;
+}
+h1 {
+   color: white;
+   text-align: center;
+   margin-top: 6rem;
+   margin-bottom: 2rem;
+}
+header hr {
+   width: 5%;
+    border: 2px solid #F05F40;
+}
+header p {
+   color: #DAD0C4;
+   text-align: center;
+   width: 60%;
+   margin: 2rem auto 6rem;
+}
+section#find-monkey {
+   background: #F05F40;
+   color: white;
+   padding: 5px 0;
+   text-align: center;
+}
+h2 {
+   font-weight: normal;
+   font-size: 33px;
+   margin-bottom: 2rem;
+}
+section#find-monkey hr {
+   width: 5%;
+border: 2px solid white;
+}
+section#find-monkey p {
+   color: #DAD0C4;
+   text-align: center;
+   width: 60%;
+   margin: 2rem auto;
+}
+button {
+   border: none;
+   text-transform: uppercase;
+   font-weight: bold;
+   background: white;
+   padding: 12px 25px;
+   border-radius: 24px;
+   margin-bottom: 2rem;
+   cursor: pointer;
+}
+section#kind {
+   padding: 5px 0;
+}
+section#kind h2 {
+   text-align: center;
+}
+section#kind hr {
+   width: 5%;
+    border: 2px solid #F05F40;
+}
+section#info {
+   display: flex;
+   width: 81%;
+   justify-content: center;
+   margin: 0 auto;
+   margin: 4rem auto 0;
+}
+section#info article {
+   text-align: center;
+   margin: 14px;
+   width: 25%;
+}
+article i {
+   color: #F05F40;
+   font-size: 55px;
+}
+article h3 {
+   font-weight: normal;
+}
+article p {
+   color: gray;
+}
+section#images {
+   display: flex;
+   justify-content: space-around;
+   border-bottom: 4px solid #F05F40;
+    border-top: 4px solid #F05F40;
+    margin-top: 1rem;
+}
+section#images figure {
+   width: 30%;
+   margin: 0;
+   border-left: 4px solid #F05F40;
+   border-right: 4px solid #F05F40;
+}
+section#images figure img {
+   width: 100%;
+   vertical-align: bottom;
+}
+footer {
+   text-align: center;
+}
+footer span {
+   color: #F05F40;
+}

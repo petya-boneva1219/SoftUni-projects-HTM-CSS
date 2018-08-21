@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+body {
+   margin: 0 auto;
+   padding: 0;
+   font-family: 'Open Sans', sans-serif;
+   background-color: #FAEBC8;
+}
+section {
+   width: 81%;
+   margin: 4rem auto;
+   background-color: white;
+   box-shadow: 0px 0px 32px 10px rgba(140,93,79,1);
+   border-radius: 13px;
+   text-align: center;
+}
+article {
+   width: 21%;
+   margin: 23px;
+   display: inline-block;
+   vertical-align: top;
+   padding: 2rem 0 1rem;
+}
+article img {
+   width: 39%;
+   text-align: center;
+}
+article p {
+   text-align: left;
+}
+article p#name {
+   text-shadow: 14px 15px 1px #808080;
+   color: #AF6E5A;
+   font-weight: bold;
+}
+section article:nth-child(2) p#name {
+   margin-top: 61px;
+}
+section article:nth-child(3) p#name {
+   margin-top: 41px;
+}

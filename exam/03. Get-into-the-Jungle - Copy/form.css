@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,400i,500,500i');
+
+body{
+   background:linear-gradient(  to right,rgb(160, 104, 92),rgb(241, 222, 189) 100%);
+   font-family: 'Poppins',sans-serif;
+}
+section{
+   box-shadow: 7px 1px 17px 7px rgb(174, 145, 118);
+   border-radius: 16px;
+   background-color: white;
+   width: 80%;
+   margin: 5% auto;
+}
+section div{
+   display: inline-block;
+   width: 48%;
+   vertical-align: top;
+}
+form{
+   width: 77%;
+}
+form label{
+   display: block;
+}
+.form{
+   margin-top: 2em;
+   margin-left: 2em;
+}
+.img img{
+    padding-left: 50px;
+    width: 74%;
+    padding-top: 55px;
+}
+input[type="email"],input[type="password"]{
+   border-radius: 39px;
+   padding: 19px;
+   border: none;
+   padding-left: 55px;
+   outline: none;
+   width: 76%;
+   background-color: rgb(230, 230, 230);
+   margin-bottom: 20px;
+}
+form label >i{
+   color: rgb(102, 102, 102);
+   
+   position: relative;
+   left: 45px;
+}
+.form p>i{
+   font-size: 22px;
+    color: rgb(170, 170, 170);
+    margin-right: 11px;
+    position: relative;
+    top: 2px;
+}
+body > section > div.form > form > p{
+   margin-left: 35px;
+   color:rgb(170, 178, 200);
+}
+.form h4{
+   font-weight: 400;
+   margin-left: 18px;
+}
+.form h1{
+   font-weight: 400;
+   text-align: center;
+   width: 77%;
+}
+input[type="submit"]{
+   border-radius: 39px;
+   padding: 19px;
+   background-color: rgb(142, 107, 82);
+   width: 96%;
+   border: none;
+   outline: none;
+   margin-left: 12px;
+   font-size: 16px;
+   color: white;
+   font-weight: bold;
+}
+input[type="submit"]:hover{
+   cursor: pointer;
+   background-color: rgb(94, 71, 54);
+}
+div.form div.inner{
+   text-align: center;
+   width: 100%;
+   
+}
+body > section > div.form > form > div > p:nth-child(1){
+    margin-bottom: 30px;
+}
+div.inner p{
+    color: rgb(170, 178, 200);
+}
+div.inner a{
+    color:rgb(102, 102, 102);
+}
