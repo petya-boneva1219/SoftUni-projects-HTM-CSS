@@ -1,0 +1,78 @@
+@media only screen and (max-width: 599px) {
+   .wrap {
+      width: 100%;
+   }
+   main {
+      text-align: center;
+   }
+   #header-top-area h1 {
+      width: 127px;
+      float: unset;
+   }
+   #header-top-area h2 {
+      display: none;
+   }
+   #header-middle-area {
+      border-top: 1px solid rgb(90, 90, 90);
+      border-bottom: 1px solid rgb(90, 90, 90);
+      padding: 8px 20px;
+   }
+   header h3 {
+      display: none;
+   }
+   header ul.navigation {
+      display: none;
+   }
+   div#product-menu {
+      display: block;
+      float: unset;
+      border-bottom: 1px solid rgb(90, 90, 90);
+   }
+   div#product-menu ul {
+      display: block;
+      background-color: #B0B5B5;
+   }
+   div#product-menu:hover ul.submenu{
+      display: block;
+   }
+   #product-menu ul li:hover {
+      background-color: unset;
+      cursor: pointer;
+   }
+   #products-liked-list ul li:nth-child(2), #products-liked-list ul li:nth-child(4) {
+      display: none;
+   }
+   #products-suggestions-list ul li:nth-child(2), #products-suggestions-list ul li:nth-child(3) {
+      display: none;
+   }
+   .share {
+      float: unset;
+      text-align: center;
+   }
+   footer {
+      height: unset;
+   }
+   footer .box.share strong {
+      display: inline-block;
+      font-weight: bold;
+      vertical-align: bottom;
+      color: white;
+   }
+   footer .box.share a:nth-child(4) {
+      color: white;
+   }
+   footer div.wrap {
+      text-align: center;
+   }
+   footer .email-newsletter {
+      float: unset;
+      padding: 1rem 2rem;
+
+   }
+   footer .copyright {
+      float: unset;
+      text-align: unset;
+      padding: unset;
+      padding-bottom: 1rem;
+   }
+}

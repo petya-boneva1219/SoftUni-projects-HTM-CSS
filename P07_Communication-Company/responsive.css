@@ -1,0 +1,92 @@
+@media only screen and (max-width: 1199px) {
+   .hero-head h1 {
+      padding-left: 2rem;
+   }
+   .hero-head .goal {
+      padding-left: 2rem;
+   }
+   .bordered {
+      padding-left: 2rem;
+   }
+   .wrapper {
+      width: 100%;
+   }
+   .content-wrap {
+      flex-direction: column;
+   }
+   .content.woodsmoke {
+      padding-left: 2rem;
+   }
+   .content.sponsors {
+      padding: 0 2rem;
+   }
+   .main-foot {
+      padding-left: 2rem;
+   }
+   .main-foot .wrapper {
+      flex-wrap: wrap;
+   }
+   .main-foot address, .main-foot nav {
+      margin-right: 26%;
+   }
+}
+
+@media only screen and (max-width: 699px) {
+   .main-nav {
+      display: none;
+   }
+   .main-nav-trigger {
+      display: inline-block;
+      margin-top: 15px;
+      float: right;
+   }
+   .hero-head h1 {
+      float: unset;
+      font-size: 30px;
+      font-family: 'PT Serif', serif;
+      line-height: unset; 
+      text-align: center;
+      margin: 0 0 20px;
+      padding-left: unset;
+  }
+  .hero-head .goal {
+   float: unset;
+   text-align: center;
+   max-width: unset;
+   padding-left: unset;
+}
+.hero-head {
+   background-image: unset;
+   background-color: #181621;
+   min-height: 471px;
+}
+.bordered {
+   text-align: center;
+}
+.content.woodsmoke {
+   text-align: center;
+   padding-left: unset;
+}
+.button-list li {
+   display: block;
+   margin: 0 0 20px 0;
+   width: 100%;
+}
+.button {
+   width: 90%;
+}
+.main-foot .wrapper {
+   flex-direction: column;
+   text-align: center;
+}
+.main-foot address, .main-foot nav {
+    margin-right: unset;
+ }
+ .main-foot .bottom .copyright {
+    float: unset;
+    text-align: center;
+}
+.main-foot {
+    padding-left: unset;
+ }
+}

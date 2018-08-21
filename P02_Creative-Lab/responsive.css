@@ -1,0 +1,48 @@
+@media only screen and (max-width: 900px) {
+   body #wrapper {
+      width: 100%;
+   }
+   body #wrapper > header {
+      flex-flow: column;
+   }
+   body #wrapper > header h1 a {
+      justify-content: center;
+      flex-flow: column;
+      text-align: center;
+   }
+   body #wrapper > header h1 a span {
+      padding-top: 0;
+      padding-right: 0;
+   }
+   body #wrapper > header h1 a img {
+      margin: auto;
+   }
+   body #wrapper > header nav ul {
+      margin-top: unset;
+      flex-flow: column;
+      width: 100%;
+   }
+   body #wrapper > header nav ul li {
+      width: 90%;
+      margin: 0.5rem auto;
+   }
+   body #wrapper > section {
+      width: 100%;
+   }
+   body #wrapper > aside {
+      width: 100%;
+      flex-flow: row;
+      margin: auto;
+   }
+   body #wrapper > aside div.news {
+      margin-left: 3px;
+   }
+   body #wrapper > aside div {
+      padding-bottom: 4rem;
+   }
+}
+@media only screen and (max-width: 480px) {
+   body #wrapper > aside {
+      flex-flow: column;
+   }
+}

@@ -1,0 +1,83 @@
+﻿@media only screen and (max-width: 999px) {
+  body {
+    width: 100%;
+    min-width: unset;
+  }
+  div#wrapper {
+    width: 100%;
+  }
+  header {
+    height: unset;
+  }
+  #logoarea {
+    display: block;
+    float: unset;
+    padding: 32px 5px 31px 74px;
+  }
+  #header-area-right {
+    float: unset;
+    display: block;
+    max-width: unset;
+    padding: unset;
+  }
+  #menu {
+    display: block;
+    float: unset;
+    margin-bottom: 0.8rem;
+  }
+  #search-form {
+    float: unset;
+    margin-right: unset;
+    width: 258px;
+  }
+  #nav-menu {
+    justify-content: center;
+  }
+  section.contentblock {
+    min-width: unset;
+    min-height: unset;
+  }
+  #p-albums-items {
+    justify-content: center;
+  }
+  #publicphotos {
+    width: 95%;
+    padding: unset;
+    margin: auto;
+  }
+  #publicphotos h1 {
+    text-align: unset;
+    padding-top: 1.3rem;
+  }
+  footer {
+    min-width: unset;
+  }
+}
+
+@media only screen and (max-width: 755px) {
+  #logoarea {
+    display: block;
+    float: unset;
+    padding: 32px 5px 31px 5px;
+  }
+  #nav-menu {
+    flex-direction: column;
+    text-align: unset;
+  }
+  #nav-menu a {
+    width: 80%;
+    margin: 0.3rem;
+  }
+  header {
+    height: 322px;
+  }
+  #search-form {
+    width: 60%;
+  }
+  footer .main-foot .wrapper {
+    text-align: center;
+  }
+  .main-foot address, .main-foot nav {
+    margin-right: none;
+  }
+}
